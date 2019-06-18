@@ -26,6 +26,7 @@ public class Calc {
             return 3;
         else
             return 4;
+
     }
 
     public static  void displayHighScore(String name,int highScore){

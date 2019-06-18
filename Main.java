@@ -11,6 +11,7 @@ public class Main {
         }
     }
         public static double calculateInterest(double amount, double iRate){
+
         return(amount*(iRate/100));
 
     }

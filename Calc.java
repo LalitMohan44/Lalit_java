@@ -5,10 +5,13 @@ public class Calc {
 
         int highScore=calculateHighScore(1500);
         displayHighScore("Lalit",highScore);
+
         highScore=calculateHighScore(900);
         displayHighScore("Mohan",highScore);
+
         highScore=calculateHighScore(400);
         displayHighScore("Rajat",highScore);
+
         highScore=calculateHighScore(50);
         displayHighScore("Bob",highScore);
     }

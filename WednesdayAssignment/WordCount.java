@@ -7,7 +7,6 @@ public class WordCount {
     public static void main(String args[]) {
         String s1 = "java string split method by java string split";
         wordCount(s1);
-
     }
 
     static void wordCount(String inputString)
@@ -19,11 +18,9 @@ public class WordCount {
         for (String w : words) {
 
             if (wordCountMap.containsKey(w)) {
-
                 wordCountMap.put(w, wordCountMap.get(w) + 1);
             }
             else {
-
                 wordCountMap.put(w, 1);
             }
         }

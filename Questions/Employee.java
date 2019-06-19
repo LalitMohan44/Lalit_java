@@ -25,7 +25,7 @@ public class Employee {
         designation = empDesig;
     }
 
-    public void empTecnology(String empTech) {
+    public void empTechnology(String empTech) {
         technology = empTech;
     }
 
@@ -53,14 +53,14 @@ class EmployeeAdd {
         empOne.empId(12345);
         empOne.empAge(21);
         empOne.empDesignation("Senior Software Engineer");
-        empOne.empTecnology("Java");
+        empOne.empTechnology("Java");
         empOne.empSalary(100000);
         empOne.printEmployee();
 
         empTwo.empId(23456);
         empTwo.empAge(22);
         empTwo.empDesignation("Software Engineer");
-        empTwo.empTecnology("SQL");
+        empTwo.empTechnology("SQL");
         empTwo.empSalary(50000);
         empTwo.printEmployee();
     }

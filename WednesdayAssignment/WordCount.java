@@ -12,7 +12,6 @@ public class WordCount {
     static void wordCount(String inputString)
     {
         HashMap<String, Integer> wordCountMap = new HashMap<>();
-
         String[] words = inputString.split("\\s"); //splits the string based on whitespace
 
         for (String w : words) {

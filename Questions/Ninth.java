@@ -9,16 +9,16 @@ public class Ninth {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Input a number: ");
         int n = scanner.nextInt();
-        int sum = 0;
+        int pal = 0;
         int r;
         int temp = n;
         while(n>0)
         {
             r = n % 10;
-            sum = (sum*10)+r;
+            pal = (pal*10)+r;
             n = n/10;
         }
-        if(temp==sum)
+        if(temp==pal)
             System.out.println(temp+" is a Palindrome number.");
         else
             System.out.println(temp+"is not a Palindrome number");

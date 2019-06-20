@@ -30,19 +30,9 @@ class SortedBooks implements Comparable<SortedBooks> {
     }
 
     public int compareTo(SortedBooks o) {
-        return this.bookId > o.bookId ? 1 : (this.bookId < o.bookId ? -1 : 0);
+        return 0;
     }
 
-    public String toString(){
-        return String.valueOf(bookId);
-    }
-
-//    public void bookDetails(){
-//        System.out.println("Book Title:"+title);
-//        System.out.println("Book Category:"+category);
-//
-//
-//    }
 }
 
 public class Books{
@@ -57,7 +47,11 @@ public class Books{
         byAuthor.add(two);
 
         Collections.sort(byAuthor, new SortedBooks.bookByAuthor());
-        System.out.println("Sorted BookId by Author: "+byAuthor);
+        for(SortedBooks b:byAuthor)
+        {
+            System.out.println("Books Details: "+b.bookId+" "+b.author+" "+b.title);
+        }
+
 
 
 
